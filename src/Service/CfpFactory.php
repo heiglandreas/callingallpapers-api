@@ -85,7 +85,7 @@ class CfpFactory
         if (! isset($array['name'])) {
             throw new \InvalidArgumentException('Name has to be specified');
         }
-        $cfp->setName(filter_var($array['name'], FILTER_SANITIZE_STRING));
+        $cfp->setName(filter_var($array['name'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES));
     }
 
     public static function setDateCfpStart(Cfp $cfp, array $array)
@@ -109,7 +109,7 @@ class CfpFactory
         if (! isset($array['timezone'])) {
             throw new \InvalidArgumentException('Timezone has to be specified');
         }
-        $cfp->setTimezone(filter_var($array['timezone'], FILTER_SANITIZE_STRING));
+        $cfp->setTimezone(filter_var($array['timezone'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES));
     }
 
     public static function setUri(Cfp $cfp, array $array)
@@ -163,7 +163,7 @@ class CfpFactory
             return;
         }
 
-        $cfp->setDescription(filter_var($array['description'], FILTER_SANITIZE_STRING));
+        $cfp->setDescription(filter_var($array['description'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES));
     }
 
     public static function setLocation(Cfp $cfp, array $array)
@@ -172,7 +172,7 @@ class CfpFactory
             return;
         }
 
-        $cfp->setLocation(filter_var($array['location'], FILTER_SANITIZE_STRING));
+        $cfp->setLocation(filter_var($array['location'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES));
     }
 
     public static function setGeolocation(Cfp $cfp, array $array)
@@ -219,7 +219,7 @@ class CfpFactory
         }
 
         $cfp->setTags(array_map(function ($item) {
-            return filter_var($item, FILTER_SANITIZE_STRING);
+            return filter_var($item, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
         }, $array['tags']));
     }
 
@@ -229,6 +229,6 @@ class CfpFactory
             return;
         }
 
-        $cfp->addSource(filter_var($array['source'], FILTER_SANITIZE_STRING));
+        $cfp->addSource(filter_var($array['source'], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES));
     }
 }
