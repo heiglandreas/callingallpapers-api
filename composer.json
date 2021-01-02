@@ -6,7 +6,7 @@
         "akrabat/ip-address-middleware": "^1.0",
         "guzzlehttp/guzzle": "^6.2",
         "mattketmo/camel": "^1.1",
-        "monolog/monolog": "^1.17",
+        "monolog/monolog": "^2.2",
         "org_heigl/clacks-middleware": "^1.1",
         "org_heigl/pdo_timezone_helper": "dev-master",
         "org_heigl/slim-json-helpers": "^1.1.0",
