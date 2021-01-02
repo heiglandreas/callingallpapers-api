@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e46a674cd3acd6287ef9aba383cb95b",
+    "content-hash": "d942e540d5865e5ae3b18f7a1bc18a45",
     "packages": [
         {
             "name": "akrabat/ip-address-middleware",
-            "version": "1.0.1",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/akrabat/ip-address-middleware.git",
-                "reference": "9b0bffcad90bd365c5bfbdb430563cd4e35a93ba"
+                "reference": "90c38ef95d46c59e12eea236a4d592c03889bbaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akrabat/ip-address-middleware/zipball/9b0bffcad90bd365c5bfbdb430563cd4e35a93ba",
-                "reference": "9b0bffcad90bd365c5bfbdb430563cd4e35a93ba",
+                "url": "https://api.github.com/repos/akrabat/ip-address-middleware/zipball/90c38ef95d46c59e12eea236a4d592c03889bbaa",
+                "reference": "90c38ef95d46c59e12eea236a4d592c03889bbaa",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
+                "php": "^7.2 || ^8.0",
                 "psr/http-message": "^1.0",
                 "psr/http-server-middleware": "^1.0"
             },
@@ -29,9 +29,9 @@
                 "akrabat/rka-ip-address-middleware": "*"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.5",
-                "squizlabs/php_codesniffer": "^3.2",
-                "zendframework/zend-diactoros": "^1.7"
+                "laminas/laminas-diactoros": "^2.4",
+                "phpunit/phpunit": "^8.5.8 || ^9.4",
+                "squizlabs/php_codesniffer": "^3.2"
             },
             "type": "library",
             "autoload": {
@@ -57,7 +57,11 @@
                 "middleware",
                 "psr7"
             ],
-            "time": "2018-07-03T06:53:57+00:00"
+            "support": {
+                "issues": "https://github.com/akrabat/ip-address-middleware/issues",
+                "source": "https://github.com/akrabat/ip-address-middleware/tree/2.0"
+            },
+            "time": "2020-12-07T11:04:16+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -701,6 +705,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -754,6 +761,10 @@
                 "response",
                 "server"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-handler/issues",
+                "source": "https://github.com/php-fig/http-server-handler/tree/master"
+            },
             "time": "2018-10-30T16:46:14+00:00"
         },
         {
@@ -807,6 +818,10 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-middleware/issues",
+                "source": "https://github.com/php-fig/http-server-middleware/tree/master"
+            },
             "time": "2018-10-30T17:12:04+00:00"
         },
         {
