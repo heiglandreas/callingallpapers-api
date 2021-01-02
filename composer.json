@@ -3,7 +3,7 @@
     "description" : "The API powering callingallpapers.com",
     "license": "MIT",
     "require": {
-        "akrabat/ip-address-middleware": "^1.0",
+        "akrabat/ip-address-middleware": "^2.0",
         "guzzlehttp/guzzle": "^6.2",
         "mattketmo/camel": "^1.1",
         "monolog/monolog": "^1.17",
