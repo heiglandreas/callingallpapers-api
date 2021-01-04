@@ -407,6 +407,10 @@
                 "router",
                 "routing"
             ],
+            "support": {
+                "issues": "https://github.com/nikic/FastRoute/issues",
+                "source": "https://github.com/nikic/FastRoute/tree/master"
+            },
             "time": "2018-02-13T20:26:39+00:00"
         },
         {
@@ -498,20 +502,20 @@
         },
         {
             "name": "org_heigl/slim-json-helpers",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heiglandreas/slim-json-helpers.git",
-                "reference": "cbf7a0eef6152bdd889c9b386a0ac70a9521067d"
+                "reference": "90b09b35b7afc2c418ed8acfbd21ee55c18aaf31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heiglandreas/slim-json-helpers/zipball/cbf7a0eef6152bdd889c9b386a0ac70a9521067d",
-                "reference": "cbf7a0eef6152bdd889c9b386a0ac70a9521067d",
+                "url": "https://api.github.com/repos/heiglandreas/slim-json-helpers/zipball/90b09b35b7afc2c418ed8acfbd21ee55c18aaf31",
+                "reference": "90b09b35b7afc2c418ed8acfbd21ee55c18aaf31",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5",
+                "php": "^7.2 | ^8.0",
                 "psr/container": "^1.0.0",
                 "slim/slim": "~3"
             },
@@ -522,7 +526,8 @@
                 "aporat/slim-json-helpers": "*"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0"
+                "ext-json": "*",
+                "phpunit/phpunit": "^8.0 | ^9.0"
             },
             "type": "library",
             "autoload": {
@@ -550,9 +555,9 @@
             "support": {
                 "email": "andreas@heigl.org",
                 "issues": "https://github.com/heiglandreas/slim-json-helpers/issues",
-                "source": "https://github.com/heiglandreas/slim-json-helpers/tree/1.1.0"
+                "source": "https://github.com/heiglandreas/slim-json-helpers/tree/1.1.1"
             },
-            "time": "2021-01-02T16:26:20+00:00"
+            "time": "2021-01-03T03:58:07+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -602,6 +607,9 @@
                 "container",
                 "dependency injection"
             ],
+            "support": {
+                "source": "https://github.com/silexphp/Pimple/tree/v3.3.1"
+            },
             "time": "2020-11-24T20:35:42+00:00"
         },
         {
@@ -651,6 +659,10 @@
                 "container-interop",
                 "psr"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/master"
+            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -701,6 +713,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -1181,6 +1196,10 @@
                 "micro",
                 "router"
             ],
+            "support": {
+                "issues": "https://github.com/slimphp/Slim/issues",
+                "source": "https://github.com/slimphp/Slim/tree/3.x"
+            },
             "time": "2019-11-28T17:40:33+00:00"
         },
         {
