@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "akrabat/ip-address-middleware": "^1.0",
-        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/guzzle": "^7.2",
         "mattketmo/camel": "^1.1",
         "monolog/monolog": "^1.17",
         "org_heigl/clacks-middleware": "^1.1",
